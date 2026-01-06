@@ -1,0 +1,117 @@
+site_name: Oasis 3D Documentation
+site_description: Comprehensive documentation wiki for Oasis 3D project
+site_author: Oasis 3D Team
+site_url: https://your-username.github.io/3DOasis
+
+# Repository - Git Integration
+repo_name: 3DOasis
+repo_url: https://github.com/your-username/3DOasis
+edit_uri: edit/main/docs/
+# Позволяет пользователям редактировать документацию прямо из браузера
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/3DOasis
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/your-username/3DOasis
+  version:
+    provider: mike
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.index
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/book-open-variant
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/installation.md
+    - getting-started/quick-start.md
+    - getting-started/configuration.md
+  - User Guide:
+    - user-guide/overview.md
+    - user-guide/features.md
+    - user-guide/examples.md
+  - API Reference:
+    - api/overview.md
+    - api/components.md
+    - api/classes.md
+  - Development:
+    - development/setup.md
+    - development/contributing.md
+    - development/guidelines.md
+  - Architecture:
+    - architecture/overview.md
+    - architecture/design-patterns.md
+    - architecture/data-flow.md
+  - Tutorials:
+    - tutorials/basic-usage.md
+    - tutorials/advanced-topics.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+
+# Copyright
+copyright: Copyright &copy; 2024 Oasis 3D Contributors
