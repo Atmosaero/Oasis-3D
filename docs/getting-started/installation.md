@@ -21,8 +21,8 @@ pip install 3doasis
 ### Способ 2: Из исходников
 
 ```bash
-git clone https://github.com/your-username/Oasis 3D.git
-cd Oasis 3D
+git clone https://github.com/Atmosaero/Oasis-3D.git
+cd Oasis-3D
 pip install -e .
 ```
 

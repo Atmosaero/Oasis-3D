@@ -62,6 +62,6 @@ pytest
 
 Если вы не нашли ответ на свой вопрос:
 
-1. Проверьте [Issues](https://github.com/your-username/Oasis 3D/issues)
+1. Проверьте [Issues](https://github.com/Atmosaero/Oasis-3D/issues)
 2. Создайте новый Issue с описанием проблемы
 3. Свяжитесь с командой разработки

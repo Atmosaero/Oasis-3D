@@ -28,10 +28,10 @@ Oasis 3D — это [описание вашего проекта]. Здесь �
 
 ## Полезные ссылки
 
-- [GitHub Repository](https://github.com/your-username/3DOasis)
-- [Issue Tracker](https://github.com/your-username/3DOasis/issues)
+- [GitHub Repository](https://github.com/Atmosaero/Oasis-3D)
+- [Issue Tracker](https://github.com/Atmosaero/Oasis-3D/issues)
 - [Contributing Guide](development/contributing.md)
 
 ---
 
-**Примечание:** Эта документация находится в стадии разработки. Если вы нашли ошибку или хотите что-то добавить, пожалуйста, создайте [Issue](https://github.com/your-username/3DOasis/issues) или [Pull Request](https://github.com/your-username/3DOasis/pulls).
+**Примечание:** Эта документация находится в стадии разработки. Если вы нашли ошибку или хотите что-то добавить, пожалуйста, создайте [Issue](https://github.com/Atmosaero/Oasis-3D/issues) или [Pull Request](https://github.com/Atmosaero/Oasis-3D/pulls).

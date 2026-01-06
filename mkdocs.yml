@@ -1,19 +1,17 @@
 site_name: Oasis 3D Documentation
 site_description: Comprehensive documentation wiki for Oasis 3D project
 site_author: Oasis 3D Team
-site_url: https://your-username.github.io/3DOasis
+site_url: https://atmosaero.github.io/Oasis-3D
 
 # Repository - Git Integration
-repo_name: 3DOasis
-repo_url: https://github.com/your-username/3DOasis
+repo_name: Oasis-3D
+repo_url: https://github.com/Atmosaero/Oasis-3D
 edit_uri: edit/main/docs/
 # Позволяет пользователям редактировать документацию прямо из браузера
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/3DOasis
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/your-username/3DOasis
+      link: https://github.com/Atmosaero/Oasis-3D
   version:
     provider: mike
 

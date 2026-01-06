@@ -13,8 +13,8 @@
 ## Клонирование репозитория
 
 ```bash
-git clone https://github.com/your-username/Oasis 3D.git
-cd Oasis 3D
+git clone https://github.com/Atmosaero/Oasis-3D.git
+cd Oasis-3D
 ```
 
 ## Создание виртуального окружения
